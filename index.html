@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- You must link to Bootstrap to use its classes
+    you can do this through a CDN as shown here, download the file and
+    include it in the development directory, or only include the components you
+    need with SASS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Link your CSS document after bootstrap
+    so you can override its CSS with your own -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- The Magic number for columns in rows is 12!!!!!!! -->
+
+    <!-- rows should be in a .container or .container-fluid -->
+    <div class="container-fluid">
+      <!-- columns should be in a row -->
+      <!-- The Magic number for columns in rows is 12!!!!!!! -->
+      <div class="row">
+        <!-- col-6 + col-6 = 12 -->
+        <div class="col-md-6">
+          <p>I am the first column</p>
+          <p>.col-md-6</p>
+        </div>
+        <div class="col-md-6">
+          <p>I am the second column</p>
+          <p>.col-md-6</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- col-4 + col-4 + col-4 = 12 -->
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">.col-md-4</div>
+      </div>
+
+
+      <div class="row">
+        <!-- col-4 + col-4 + col-4 = 12 -->
+        <!-- These are col-lg-4 which will each take up
+        4 of the imaginary row slots on large screens and wider
+        but will take up a full row when displayed on smaller than
+        large screens    -->
+        <div class="col-lg-4">.col-lg-4</div>
+        <div class="col-lg-4">.col-lg-4</div>
+        <div class="col-lg-4">.col-lg-4</div>
+      </div>
+
+      <div class="row">
+        <!-- You can add multiple classes on single elements to
+        create different layouts at different screen sizes -->
+        <div class="col-lg-3 col-md-6">.col-lg-3 .col-md-6</div>
+        <div class="col-lg-3 col-md-6">.col-lg-3 .col-md-6</div>
+        <div class="col-lg-3 col-md-6">.col-lg-3 .col-md-6</div>
+        <div class="col-lg-3 col-md-6">.col-lg-3 .col-md-6</div>
+      </div>
+
+    </div><!-- /.container -->
+
+    <!-- Optional JavaScript -->
+    <!-- This is needed for features like modals, carousels, and toggle navs
+    The JS files must be loaded at the bottom of the body. -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!-- Your JS file should be loaded last -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
